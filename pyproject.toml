@@ -6,10 +6,16 @@ authors = ["exotol <artem.bardakov@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+torch = {url = "https://download.pytorch.org/whl/cpu/torch-1.11.0%2Bcpu-cp39-cp39-win_amd64.whl"}
+pandas = "^1.4.2"
+numpy = "^1.22.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 black = {extras = ["d"], version = "^22.3.0"}
+matplotlib = "^3.5.2"
+seaborn = "^0.11.2"
+jupyterlab = "^3.4.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
